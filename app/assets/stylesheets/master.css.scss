@@ -105,8 +105,8 @@ h2 span {
 }
 
 @media (max-width: 750px) {
-  @-ms-viewport{
-    width: extend-to-zoom;
+  @-ms-viewport {
+    width: device-width;
     zoom: 1.0;
   }
   .footer-blurb {
