@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
 
 .clear {
   clear:both;
@@ -109,6 +105,10 @@ h2 span {
 }
 
 @media (max-width: 750px) {
+  @-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+  }
   .footer-blurb {
     text-align: left;
   }
